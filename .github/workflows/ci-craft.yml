@@ -1,8 +1,5 @@
 on: push
 name: deploy
-    branches: 
-    - main
-    - release/*
 jobs:
   build-and-push:
     name: build and push image
